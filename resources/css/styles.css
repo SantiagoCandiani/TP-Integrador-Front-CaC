@@ -1,0 +1,53 @@
+.custom-bg-gray {
+  background-color: rgb(53, 58, 64);
+}
+
+.nav-item {
+  font-weight: bolder;
+}
+
+.background-img {
+  position: relative;
+}
+
+.background-img img {
+  width: 100%;
+  filter: brightness(70%); /* Reducción del brillo */
+}
+
+.text-overlay {
+  position: absolute;
+  top: 50%;
+  right: 0; /* Ajustamos el valor left a 0 para alinear el texto a la izquierda */
+  transform: translateY(-50%);
+  text-align: right; /* Justificamos el texto a la izquierda */
+  color: white;
+  padding: 10px;
+  background-color: rgba(0, 0, 0, 0.298);
+  max-width: 50%; /* Limitamos el ancho del texto para que no ocupe toda la pantalla */
+}
+
+.custom-h2 {
+  font-size: 1rem; /* Tamaño de letra más pequeño para estos h1 */
+}
+
+.custom-h2 .oradores {
+  font-size: 2.5rem; /* Tamaño de letra más grande para el texto dentro del span */
+  font-weight: bold; /* Texto en negrita para el texto dentro del span */
+}
+
+.btn {
+  font-weight: bold;
+}
+
+.btn-custom-green {
+  background-color: rgb(150, 201, 62); 
+  border-color: rgb(150, 201, 62);
+  color: #fff; 
+}
+
+.btn-custom-green:hover {
+  background-color: #3ec943; 
+  border-color: #3ec943; 
+  color: #fff;
+}
