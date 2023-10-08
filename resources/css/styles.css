@@ -6,17 +6,26 @@
   font-weight: bolder;
 }
 
+
 @media (max-width: 576px) {
+  body {
+    padding-top: 70px; /* Espacio para el navbar en pantallas de tamaño celular */
+  }
+
   .carousel-caption {
-      font-size: 0.9rem;
+    font-size: 0.7rem; /* Tamaño de fuente más pequeño para pantallas de celular */
+    max-width: 90%; /* Limita el ancho del texto para evitar que salga de la imagen */
+    left: 5%; /* Ajusta la posición del texto para centrarlo mejor */
   }
+
   .carousel-caption h1 {
-      font-size: 1.2rem;
+    font-size: 1rem; /* Tamaño de fuente más pequeño para el título en pantallas de celular */
   }
+
   .btn {
-      padding: .25rem .5rem;
-      font-size: .875rem;
-      line-height: 1.5;
+    padding: 0.15rem 0.3rem; /* Reducir el espacio interno de los botones */
+    font-size: 0.8rem; /* Tamaño de fuente más pequeño para los botones en pantallas de celular */
+    line-height: 1.5;
   }
 }
 
@@ -51,14 +60,14 @@
 }
 
 .btn-custom-green {
-  background-color: rgb(150, 201, 62); 
+  background-color: rgb(150, 201, 62);
   border-color: rgb(150, 201, 62);
-  color: #fff; 
+  color: #fff;
 }
 
 .btn-custom-green:hover {
-  background-color: #3ec943; 
-  border-color: #3ec943; 
+  background-color: #3ec943;
+  border-color: #3ec943;
   color: #fff;
 }
 
@@ -71,7 +80,7 @@
 }
 
 .text-white a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 .text-white a:hover {
