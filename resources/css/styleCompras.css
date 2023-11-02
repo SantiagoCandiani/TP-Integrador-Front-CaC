@@ -1,0 +1,78 @@
+/* Estilos generales */
+.custom-bg-gray {
+  background-color: rgb(53, 58, 64);
+}
+
+.nav-item {
+  font-weight: bolder;
+}
+
+.container.mt-5 {
+  margin-top: 100px !important;
+}
+
+.container.mt-4 {
+  margin-bottom: 30px !important;
+}
+
+/* Estilos para pantallas pequeñas */
+@media (max-width: 767px) {
+  .container.mt-5 {
+    margin-top: 50px !important;
+  }
+  .container.mt-4 {
+    margin-bottom: 30px !important;
+  }
+}
+
+@media (max-width: 576px) {
+  body {
+    padding-top: 70px;
+  }
+
+  .btn {
+    padding: 0.15rem 0.3rem;
+    font-size: 0.8rem;
+    line-height: 1.5;
+  }
+}
+
+/* Estilos para el footer */
+#footer {
+  background-color: rgb(28, 61, 78);
+}
+
+#footer-bottom {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.text-white a {
+  text-decoration: none;
+}
+
+.text-white a:hover {
+  text-decoration: underline;
+}
+
+/* Estilos para los botones */
+.btn {
+  font-weight: bold;
+}
+
+.btn-custom-green {
+  background-color: rgb(150, 201, 62);
+  border-color: rgb(150, 201, 62);
+  color: #fff;
+}
+
+.btn-custom-green:hover {
+  background-color: #3ec943;
+  border-color: #3ec943;
+  color: #fff;
+}
+
+/* Estilos para la clase bg-custom-celeste */
+.bg-custom-celeste {
+  background-color: #ADD8E6;
+}
+

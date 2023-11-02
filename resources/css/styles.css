@@ -1,3 +1,4 @@
+/* Estilos generales */
 .custom-bg-gray {
   background-color: rgb(53, 58, 64);
 }
@@ -6,29 +7,39 @@
   font-weight: bolder;
 }
 
+section::before {
+  content: "";
+  display: block;
+  height: 90px; /* Altura de tu navbar */
+  margin: -90px 0 0; /* Negativo de la altura de tu navbar */
+  visibility: hidden;
+}
 
+/* Estilos para pantallas pequeñas (max-width: 576px) */
 @media (max-width: 576px) {
   body {
-    padding-top: 70px; /* Espacio para el navbar en pantallas de tamaño celular */
+    padding-top: 90px; /* Espacio para el navbar en pantallas de tamaño celular */
   }
 
   .carousel-caption {
-    font-size: 0.7rem; /* Tamaño de fuente más pequeño para pantallas de celular */
+    font-size: 2.5vw; /* Tamaño de fuente más pequeño para pantallas de celular */
     max-width: 90%; /* Limita el ancho del texto para evitar que salga de la imagen */
     left: 5%; /* Ajusta la posición del texto para centrarlo mejor */
+    padding: 10px; /* Reduce el espaciado */
   }
 
   .carousel-caption h1 {
-    font-size: 1rem; /* Tamaño de fuente más pequeño para el título en pantallas de celular */
+    font-size: 3.5vw; /* Tamaño de fuente más pequeño para el título en pantallas de celular */
   }
 
   .btn {
-    padding: 0.15rem 0.3rem; /* Reducir el espacio interno de los botones */
-    font-size: 0.8rem; /* Tamaño de fuente más pequeño para los botones en pantallas de celular */
+    padding: 1vw 2vw; /* Reducir el espacio interno de los botones */
+    font-size: 2vw; /* Tamaño de fuente más pequeño para los botones en pantallas de celular */
     line-height: 1.5;
   }
 }
 
+/* Estilos del Carousel */
 .carousel-caption {
   top: 50%;
   transform: translateY(-50%);
@@ -38,7 +49,6 @@
   background-color: rgba(0, 0, 0, 0.6);
   border-radius: 10px;
   padding: 5px 20px;
-  max-height: 250px; /* Ajusta el valor de acuerdo a tu preferencia */
 }
 
 .bg-transparent-box h1,
@@ -46,6 +56,7 @@
   font-weight: bold;
 }
 
+/* Estilos para encabezados H2 */
 .custom-h2 {
   font-size: 1rem; /* Tamaño de letra más pequeño para estos h1 */
 }
@@ -55,6 +66,7 @@
   font-weight: bold; /* Texto en negrita para el texto dentro del span */
 }
 
+/* Estilos para botones */
 .btn {
   font-weight: bold;
 }
@@ -71,6 +83,7 @@
   color: #fff;
 }
 
+/* Estilos para el footer */
 #footer {
   background-color: rgb(28, 61, 78);
 }
@@ -79,6 +92,7 @@
   background-color: rgba(0, 0, 0, 0.2);
 }
 
+/* Estilos para enlaces */
 .text-white a {
   text-decoration: none;
 }
@@ -86,3 +100,4 @@
 .text-white a:hover {
   text-decoration: underline;
 }
+
